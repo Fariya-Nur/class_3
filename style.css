@@ -1,0 +1,223 @@
+html{
+    background-color: dimgray;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 5px 50px 0px 30px;
+}
+
+/*header part*/
+.header{
+    background-color: rgb(4, 29, 21);
+    height: 100px;
+    width: 90%;
+
+}
+
+.logo{
+    float: left;
+}
+
+.page-name{
+    float: left;
+    margin: 30px 10px 0px 10px;
+    font-size: 20px;
+    border: dotted rgb(179, 100, 100);
+    padding: 5px;
+    color: white;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px;
+}
+
+.nav{
+    float: right;
+    margin-top: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 50px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    border: solid rgb(179, 100, 100);
+    padding: 5px;
+    color: white;
+    
+}
+
+.nav ul li a:hover{
+    background-color: rgb(58, 33, 29);
+}
+
+
+/*main part*/
+.mainbody{
+    background-color: rgb(80, 153, 80);
+    height: 1100px;
+    width: 90%;
+    background-image: url(Red_chilli.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
+/*for home page*/
+.home-1{
+    height: 50px;
+    width: 400px;
+    border-style: groove;
+    border-color: rgb(109, 57, 109);
+    background-image: linear-gradient(red,yellow);
+    color: rgb(109, 57, 109);
+    padding: 50px;
+    font-size: 40px;
+    float: left;
+    margin: 40px 20px;
+}
+
+.home-2{
+    border-style: dotted;
+    border-color: violet;
+    height: 70px;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    float: right;
+    padding: 30px;
+    margin: 40px 20px;
+
+}
+/*for contact page*/
+
+.form{
+    margin: 20px;
+    padding: 10px;
+}
+
+.form td{
+    margin: 10px;
+}
+.form td input{
+    margin: 10px;
+}
+.fa-google{
+    font-size: 30px!important;
+    color: rgb(238, 228, 228);
+    margin: 20px 0px 0px 10px;
+}
+
+
+
+.map{
+  display: block;
+   height: 400px;
+   width: 600px;
+   margin: 50px;
+}
+
+/*for category page*/
+.p2{
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    font-size: 40px;
+}
+
+.p3{
+    font-size: 20px;
+}
+
+.types{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.types img{
+    height: 300px;
+    width: 300px;
+    margin: 5px 0px 0px 20px;
+   
+}
+
+.types::after{
+    content:"";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(21, 21, 80);
+    opacity: 0.5;
+    transition: margin-top 0.5s;
+}
+
+.types:hover::after{
+    margin-top: 100%; 
+}
+
+/*for about me page*/
+
+.myname{
+    text-shadow: 2px 2px 5px rgb(236, 194, 194);
+    margin: 20px;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+
+.table{
+   border: 3px solid rgb(39, 34, 34);
+   margin: 20px;
+   border-collapse: collapse;
+}
+
+.table td{
+    color: black;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.table th{
+    color: black;
+    padding: 5px;
+}
+
+.row1{
+    background-color: rgb(184, 218, 231);
+}  
+
+.row2{
+    background-color: snow;
+}
+
+.row3{
+    background-color: rgb(184, 218, 231);
+}
+
+.row4{
+    background-color: snow;
+}
+
+
+
+
+/*footer part*/
+.footer{
+    background-color: rgb(33, 54, 33);
+    height: 100px;
+    width: 90%;
+   
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
